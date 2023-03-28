@@ -14,3 +14,14 @@ function newsLetterOpen() {
 function newsLetterClose() {
   newsletter.style.right = "-100%";
 }
+
+// Side Menu
+const sidemenu = document.getElementById("allsidemenu");
+
+function openmenu() {
+  sidemenu.style.rigth = "9%";
+}
+
+function closemenu() {
+  sidemenu.style.top = "-40%";
+}
