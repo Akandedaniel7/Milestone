@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/asstes/images/logo.jpg" type="image/jpg" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milestone Construction</title>
+
+    <!-- Style.CSS -->
+    <link rel="stylesheet" href="/asstes/CSS/style.css" />
+
+    <!-- Remixicon CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="hero">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="/asstes/images/video header.mp4" type="video/mp4" />
+      </video>
+
+      <nav>
+        <img src="/asstes/images/logo.jpg" alt="logo" class="logo" />
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="/service.html">Services</a></li>
+          <li><a href="/carrers.html">Careers</a></li>
+          <li><a href="/contatct.html">Contact</a></li>
+        </ul>
+
+        <div class="header-icon">
+          <!-- seachbar -->
+          <i class="ri-search-line"></i>
+          <!-- Newsletter -->
+         <div class="newsLetter" >
+          <div class="newsLetterDiv" id="newsLetter">
+            <img src="/asstes/images/logo.jpg" alt="">
+            <p>Innovative and cost-effective engineering solutions by a dedicated
+             and focused workforce.</p>
+             <div class="newsletterSubscribe">
+               <form action="">
+                <input type="text" placeholder="Get Newsletter...">
+                <a href="#"><i class="ri-send-plane-fill"></i></a>
+               </form>
+             </div>
+             <div class="followUs">
+              <h4>Follow us:</h4>
+              <a href="#">ig</a><span>-</span>
+              <a href="#">fb</a><span>-</span>
+              <a href="#">in</a>
+            </div>
+             <i class="ri-close-line newsLetterClose" onclick="newsLetterClose()"></i>
+          </div>
+          <i class="ri-menu-line newsLetterOpen" onclick="newsLetterOpen()"></i>
+         </div>
+        </div>
+      </nav>
+      <div class="content">
+        <h1>We help our client build World class construction Projects...</h1>
+      </div>
+    </header>
+
+    <!-- first section  -->
+    <section class="container firstSectionHome">
+      <div class="section firstSectionHomeFlex ">
+        <!-- flex 1 -->
+        <div class="allImage">
+        <div class="firtSectionHomeFlexChild firstSectionHomeFlexChild1"> 
+          <h2>Constuction Mgt.</h2>
+          <p>We facilitate detailed construction process by organizing people, materials and equipment</p>
+        </div>
+        </div>
+        <!-- flex 1 --> 
+        <div class="allImage">
+        <div class="firtSectionHomeFlexChild firstSectionHomeFlexChild2">
+          <h2>Design & Build</h2>
+          <p>We facilitate detailed construction process by organizing people, materials and equipment</p>
+        </div>
+        </div>
+        <!-- flex 1 -->
+        <div class="allImage">
+        <div class="firtSectionHomeFlexChild firstSectionHomeFlexChild3">
+          <h2>Civil Works</h2>
+          <p>We facilitate detailed construction process by organizing people, materials and equipment</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- second section  -->
+  <section class="container secondSectionHome">
+    <div class="section secondSectionHomeFlex flex">
+      <!-- flex 1 -->
+      <div id="FlexSlider" class="secondSectionHomeFlex1">
+       <figure>
+        <img src="/asstes/images/home5.jpg" alt="">
+        <img src="/asstes/images/home2.jpg" alt="">
+        <img src="/asstes/images/home3.jpg" alt="">
+        <img src="/asstes/images/home4.jpg" alt="">
+        <img src="/asstes/images/home5.jpg" alt="">
+       </figure>
+      </div>
+      <!-- flex 2 -->
+      <div class="secondSectionHomeFlex2">
+        <h2>The Black Diamond Process </h2>
+        <p>Our firm holds single-source responsibility and contractual risk for every
+           aspect of each project — from estimation, assessments and pre-construction
+          to architecture, schematics, engineering, subcontracting, construction
+           and post-construction. </p>
+           <a href="#">read more</a>
+           <img src="/asstes/images/bdel-process.png" alt="">
+      </div>
+    </div>
+  </section>
+    
+    <!-- contact-general -->
+    <section class="container contact-general">
+      <div class="section flex2 contactgeneralflex">
+        <!-- flex 1 -->
+      <div class="contact-general-flex1">
+        <h3>Drop us a line or visit us…</h3>
+        <p><i>Address:</i>   13 Ayo Babatunde Crescent, off Oniru Market Road, Lekki Phase 1, Lagos.</p>
+        <p><i>Email:</i>   info@blackdiamondeng.com</p>
+        <p><i>Phone: </i>   +234 817 223 3550</p>
+
+        <div class="followUs">
+          <h4>Follow us:</h4>
+          <a href="#">ig</a><span>-</span>
+          <a href="#">fb</a><span>-</span>
+          <a href="#">in</a>
+        </div>
+      </div>
+
+      <!-- flex 2 -->
+      <div class="contact-general-flex2">
+      <form action="" class="contact-general-form" id="contact-general-form">
+            <div class="contact-general-input-div">
+              <input type="text" name="name" placeholder=" name" class="contact-general-form-name" id="contact-general-name">      
+            </div> 
+  
+             <div class="contact-general-input-div">
+              <input type="email" name="email" placeholder="email" class="contact-general-form-email" id="contact-general-email">      
+            </div>   
+  
+             <div class="contact-general-input-div">
+              <textarea placeholder="message" name="message" class="contact-general-form-message" id="message" cols="30" rows="10"></textarea>      
+            </div>     
+  
+            <p class="contact-genearl-message" id="contact-general-message"></p>         
+  
+            <button type="submit" class="button contact-general-button btn">Send Us A Message</button>
+      </form>
+      </div>
+    </section>
+   
+     <!-- footer -->
+     <footer class="container">
+      <div class="flex1 section footerSectionAllflex">
+        <!-- flex1 -->
+        <div class="flex1Chid footer-about">
+          <h2>About</h2>
+          <p>
+            Providing our clientele with innovative and cost-effective
+            engineering solutions in line with the industry’s best practices…
+          </p>
+        </div>
+        <!-- flex2 -->
+        <div class="flex1Chid footer-contact">
+          <h2>Contact</h2>
+          <ul>
+            <li><a href=""><i class="ri-phone-line"></i>+234 817 223 3550</a></li>
+            <li><a href=""><i class="ri-chat-3-line"></i>info@blackdiamondeng.com</a></li>
+            <li>
+              <a href="">
+                  <i class="ri-map-pin-2-line"></i>
+                Plot 16, Block 40, Our Daily Manna Close, Chisco Bus stop,
+                Lekki-Epe Expressway, Lagos.</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- flex3 -->
+        <div class="flex1Chid footer-quickAccess">
+          <h2>Quick access</h2>
+          <ul>
+            <li><a href=""><i class="ri-user-3-fill"></i>about us</a></li>
+            <li><a href=""><i class="ri-lock-fill"></i>our projets</a></li>
+            <li><a href=""><i class="ri-eye-fill"></i>services</a></li>
+            <li><a href=""><i class="ri-contacts-book-fill"></i>contact us</a></li>
+          </ul>
+        </div>
+        <!-- flex4 -->
+        <div class="flex1Chid footer-subscribe">
+          <h2>Subscribe</h2>
+          <div class="subscribe">
+            <input type="text" placeholder="Get Newsletter..." />
+            <i class="ri-send-plane-line"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- coder -->
+    <div class="coder">
+      <div class="section">
+        <h4>
+          &copy; 2023 Milestone. All Rights Reserved. Designed and Developed by
+          <a
+            href="https://api.whatsapp.com/send?phone=%2B2348149823761&text&app_absent=0"
+            target="_blank"
+            >DevelopIT</a
+          >
+        </h4>
+      </div>
+
+
+    <!-- Main JS -->
+    <script src="/asstes/JS/main.js"></script>
+
+    <!-- common JS -->
+    <script src="/asstes/JS/contact.js"></script>
+  </body>
+</html>

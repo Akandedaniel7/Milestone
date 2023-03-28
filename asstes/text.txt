@@ -1,0 +1,84 @@
+ <section class="container">
+      <div class="section flex1">
+        <!-- flex1 -->
+        <div class="footer-flex footer-about">
+          <h3>About</h3>
+          <p>
+            Providing our clientele with innovative and cost-effective
+            engineering solutions in line with the industry’s best practices…
+          </p>
+        </div>
+        <!-- flex2 -->
+        <div class="footer-flex footer-contact">
+          <h3>Contact</h3>
+          <div class="contact-link">
+            <div class="contact-link-flex">
+              <a href="#" class="flex1Child">
+                <i class="ri-phone-fill"></i>
+                <p>+234 817 223 3550</p>
+              </a>
+            </div>
+
+            <div class="contact-link-flex">
+              <a href="#" class="flex1Child">
+                <i class="ri-chat-3-fill"></i>
+                <p>info@blackdiamondeng.com</p>
+              </a>
+            </div>
+
+            <div class="contact-link-flex">
+              <a href="#" class="flex1Child">
+                <i class="ri-map-pin-2-line"></i>
+                <p>
+                  Plot 16, Block 40, Our Daily Manna Close, Chisco Bus stop,
+                  Lekki-Epe Expressway, Lagos.
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- flex3 -->
+        <div class="footer-flex footer-quickLinks">
+          <h3>Quick Links</h3>
+            <div class="contact-link ">
+              <div class="contact-link-flex">
+                <a href="#" class="flex1Child">
+                  <i class="ri-phone-fill"></i>
+                  <p>about us</p>
+                </a>
+              </div>
+
+              <div class="contact-link-flex">
+                <a href="#" class="flex1Child">
+                  <i class="ri-phone-fill"></i>
+                  <p>our projets</p>
+                </a>
+              </div>
+
+              <div class="contact-link-flex">
+                <a href="#" class="flex1Child">
+                  <i class="ri-phone-fill"></i>
+                  <p>services</p>
+                </a>
+              </div>
+
+              <div class="contact-link-flex">
+                <a href="#" class="flex1Child">
+                  <i class="ri-phone-fill"></i>
+                  <p>contact us</p>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        <!-- flex4 -->
+        <div class="footer-flex footer=subscribe">
+          <h3>Subscribe</h3>
+            <div class="subscribe">
+              <input type="text" placeholder="Get Newsletter.." />
+              <i class="ri-send-plane-line"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
