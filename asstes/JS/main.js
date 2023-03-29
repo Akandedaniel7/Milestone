@@ -15,13 +15,15 @@ function newsLetterClose() {
   newsletter.style.right = "-100%";
 }
 
-// Side Menu
-const sidemenu = document.getElementById("allsidemenu");
+// function validate ()
 
-function openmenu() {
-  sidemenu.style.rigth = "9%";
+// Side Menu
+var allsidemenu = document.getElementById("allsidemenu");
+
+function allopenmenu() {
+  allsidemenu.style.right = "0";
 }
 
-function closemenu() {
-  sidemenu.style.top = "-40%";
+function allclosemenu() {
+  allsidemenu.style.right = "-100%";
 }

@@ -44,7 +44,7 @@
           <li>
             <a href="/contatct.html">Contact</a>
           </li>
-          <i class="ri-close-line toggle closemenu" onclick="closemenu()"></i>
+          <i class="ri-close-line toggle closemenu" onclick="allclosemenu()"></i>
         </ul>
         
         <div class="header-icon">
@@ -58,8 +58,8 @@
              and focused workforce.</p>
              <div class="newsletterSubscribe">
                <form action="">
-                <input type="text" placeholder="Get Newsletter...">
-                <a href="#"><i class="ri-send-plane-fill"></i></a>
+                <input type="text" placeholder="Get Newsletter..." id="newsletterText">
+                <a href="#" type="button"><i class="ri-send-plane-fill"></i></a>
                </form>
              </div>
              <div class="followUs">
@@ -73,7 +73,7 @@
           <i class="ri-menu-line newsLetterOpen" onclick="newsLetterOpen()"></i>
          </div>
         </div>
-        <i class="ri-menu-line toggle openmenu" onclick="openmenu()"></i>
+        <i class="ri-menu-line toggle openmenu" onclick="allopenmenu()"></i>
         </nav>
       <div class="content">
         <h1>We help our client build World class construction Projects...</h1>
@@ -213,8 +213,10 @@
         <div class="flex1Chid footer-subscribe">
           <h2>Subscribe</h2>
           <div class="subscribe">
-            <input type="text" placeholder="Get Newsletter..." />
-            <i class="ri-send-plane-line"></i>
+            <form action="">
+              <input type="text" placeholder="Get Newsletter..." />
+              <a href="#"><i class="ri-send-plane-fill"></i></a>
+            </form>
           </div>
         </div>
       </div>

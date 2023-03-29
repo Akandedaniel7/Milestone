@@ -82,3 +82,81 @@
         </div>
       </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <div class="header-icon">
+          <!-- seachbar -->
+          <i class="ri-search-line"></i>
+          <!-- Newsletter -->
+         <div class="newsLetter" >
+          <div class="newsLetterDiv" id="newsLetter">
+            <img src="/asstes/images/logo.jpg" alt="">
+            <p>Innovative and cost-effective engineering solutions by a dedicated
+             and focused workforce.</p>
+             <div class="newsletterSubscribe">
+               <form action="">
+                <input type="text" placeholder="Get Newsletter...">
+                <a href="#"><i class="ri-send-plane-fill"></i></a>
+               </form>
+             </div>
+             <div class="followUs">
+              <h4>Follow us:</h4>
+              <a href="#">ig</a><span>-</span>
+              <a href="#">fb</a><span>-</span>
+              <a href="#">in</a>
+            </div>
+             <i class="ri-close-line newsLetterClose" onclick="newsLetterClose()"></i>
+          </div>
+          <i class="ri-menu-line newsLetterOpen" onclick="newsLetterOpen()"></i>
+         </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <nav class="navbar">
+        <img src="/asstes/images/logo.jpg" alt="logo" class="logo" />
+        <ul id="allsidemenu">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/project.html">Projects</a>
+          </li>
+          <li>
+            <a href="/about.html">About Us</a>
+          </li>
+          <li>
+            <a href="/service.html">Services</a>
+          </li>
+          <li>
+            <a href="/carrers.html">Careers</a>
+          </li>
+          <li>
+            <a href="/contatct.html">Contact</a>
+          </li>
+          <i class="ri-close-line toggle closemenu" onclick="closemenu()"></i>
+        </ul>       
+        <i class="ri-menu-line toggle openmenu" onclick="openmenu()"></i>
+        </nav>

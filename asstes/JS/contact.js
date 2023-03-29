@@ -20,10 +20,10 @@ const sendEmail = (e) => {
   } else {
     emailjs
       .sendForm(
-        "service_jagc8l2",
-        "template_xvw1iuv",
+        "service_uwcayxn",
+        "template_gd847dv",
         "#contact-general-form",
-        "EOqB9s-ao-VmHaGia"
+        "8yLa5U7uZdiWxN27J"
       )
       .then(
         () => {

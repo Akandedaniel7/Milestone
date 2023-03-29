@@ -1482,16 +1482,17 @@ footer {
   }
 
   nav ul li {
-    /* background: red; */
-    top: -70%;
-    /* width: 100%; */
+    background: red;
+    right: -150%;
+    top: 0;
+    width: 50%;
     height: 100vh;
-    /* padding-top: 50px; */
-    /* z-index: 2; */
+    padding-top: 50px;
+    z-index: 2;
     position: fixed;
     /* transition: right 1s; */
-    /* padding-left: 40%; */
-    /* line-height: 3rem; */
+    padding-left: 40%;
+    line-height: 3rem;
   }
 
   /* nav ul li a:hover {
