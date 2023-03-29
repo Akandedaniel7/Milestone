@@ -772,6 +772,38 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.Allcontent-projects {
+}
+
+.heroAll-projects {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/asstes/images/projects.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Allcontent-projects {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.Allcontent-projects h1 {
+  color: var(--text);
+  font-weight: var(--lg-md);
+  font-size: 60px;
+  padding: 38px 6rem;
+  mix-blend-mode: screen;
+  background-color: var(--white);
+  border-radius: 3px;
+}
+
 .firstProjectSection {
 }
 
@@ -1397,7 +1429,8 @@ footer {
   }
 
   .allImage,
-  .heroAll-carrer {
+  .heroAll-carrer,
+  .heroAll-projects {
     height: 50vh;
   }
 
@@ -1520,49 +1553,9 @@ footer {
   .nav-section img {
     width: 33%;
   }
-  /* .toggle {
-    display: block;
-    font-size: 35px;
-    cursor: pointer;
-    color: var(--gold);
-  }
 
-  nav ul li {
-    display: block;
-    margin: 25px;
-  }
-
-  nav ul li {
-    background: red;
-    right: -150%;
-    top: 0;
-    width: 50%;
-    height: 100vh;
-    padding-top: 50px;
-    z-index: 2;
-    position: fixed;
-    transition: right 1s;
-    padding-left: 40%;
-    line-height: 3rem;
-  } */
-
-  /* nav ul li a:hover {
-    color: var(--gold);
-    background: none;
-  } */
-
-  /* .closemenu {
-    position: absolute;
-    top: 10px;
-    left: 7%;
-    display: none;
-  } */
-
-  /* nav ul {
-    display: block;
-  } */
-
-  .heroAll-about {
+  .heroAll-about,
+  .heroAll-projects {
     width: 100%;
     height: 50vh;
   }
@@ -1571,7 +1564,8 @@ footer {
     font-size: 50px;
   }
 
-  .Allcontent-about h1 {
+  .Allcontent-about h1,
+  .heroAll-projects h1 {
     font-size: 40px;
     padding: 15px 3rem;
   }
@@ -1670,11 +1664,13 @@ footer {
   .container {
     max-width: 750px;
   }
-  .heroAll-about {
+  .heroAll-about,
+  .heroAll-projects {
     height: 40vh;
   }
 
-  .Allcontent-about {
+  .Allcontent-about,
+  .heroAll-projects {
     margin-top: 3rem;
   }
 
