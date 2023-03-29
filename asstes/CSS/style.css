@@ -764,6 +764,17 @@ nav ul li a:hover {
   font-weight: var(--lg-xm);
 }
 
+/* projects */
+.firstProjectSectionContainer {
+  background: var(--white);
+  padding: 20px 0;
+  color: var(--text);
+  text-align: center;
+}
+
+.firstProjectSection {
+}
+
 /* carrers */
 .heroAll-carrer {
   width: 100%;
@@ -1263,6 +1274,10 @@ footer {
   .carrerThirdSection1::after {
     right: -80px;
   }
+
+  .newsLetterDiv p {
+    padding-right: 42rem;
+  }
 }
 
 @media all and (min-width: 250px) and (max-width: 1120px) {
@@ -1279,6 +1294,10 @@ footer {
   nav {
     padding: 20px 3%;
   } */
+
+  .newsLetterDiv p {
+    padding-right: 38rem;
+  }
 
   .secondSectionHomeFlex {
     display: block;
@@ -1394,13 +1413,34 @@ footer {
   }
 }
 
-@media all and (max-width: 960px) {
+@media all and (max-width: 970px) {
   .secondSectionServiceFlex {
     display: block;
   }
 
+  .newsLetterDiv p {
+    padding-right: 32rem;
+  }
+
   .fourthSectionServiceContainer p {
     padding: 0 0;
+  }
+
+  .secondSectionHome,
+  .firstSection,
+  .firstSectionService,
+  .heroAll-about,
+  .secondSection,
+  .thirdSection,
+  .fourthSectionService,
+  .carrerThirdSection,
+  .carrerSecondSection,
+  .contactSecondSection {
+    padding: 70px 0;
+  }
+
+  .contactFirstSection {
+    padding: 100px 0 30px;
   }
 }
 
@@ -1411,6 +1451,20 @@ footer {
 
   .fourthSectionServiceFlex {
     display: block;
+  }
+}
+
+@media all and (max-width: 840px) {
+  .newsLetterDiv p {
+    padding-right: 23rem;
+  }
+
+  .newsLetterDiv {
+    padding: 90px 20px 0;
+  }
+
+  .newsLetterDiv p {
+    padding-right: 29rem;
   }
 }
 
@@ -1474,7 +1528,15 @@ footer {
   }
 
   .firstSection,
-  .firstSectionService {
+  .firstSectionService,
+  .heroAll-about,
+  .secondSectionHome,
+  .secondSection,
+  .thirdSection,
+  .fourthSectionService,
+  .carrerThirdSection,
+  .carrerSecondSection,
+  .contactSecondSection {
     padding: 50px 0;
   }
 

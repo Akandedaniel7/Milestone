@@ -23,17 +23,30 @@
         <source src="/asstes/images/video header.mp4" type="video/mp4" />
       </video>
 
-      <nav>
+      <nav class="navbar">
         <img src="/asstes/images/logo.jpg" alt="logo" class="logo" />
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/projects">Projects</a></li>
-          <li><a href="/about.html">About Us</a></li>
-          <li><a href="/service.html">Services</a></li>
-          <li><a href="/carrers.html">Careers</a></li>
-          <li><a href="/contatct.html">Contact</a></li>
+        <ul id="allsidemenu">
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/project.html">Projects</a>
+          </li>
+          <li>
+            <a href="/about.html">About Us</a>
+          </li>
+          <li>
+            <a href="/service.html">Services</a>
+          </li>
+          <li>
+            <a href="/carrers.html">Careers</a>
+          </li>
+          <li>
+            <a href="/contatct.html">Contact</a>
+          </li>
+          <i class="ri-close-line toggle closemenu" onclick="closemenu()"></i>
         </ul>
-
+        
         <div class="header-icon">
           <!-- seachbar -->
           <i class="ri-search-line"></i>
@@ -60,7 +73,8 @@
           <i class="ri-menu-line newsLetterOpen" onclick="newsLetterOpen()"></i>
          </div>
         </div>
-      </nav>
+        <i class="ri-menu-line toggle openmenu" onclick="openmenu()"></i>
+        </nav>
       <div class="content">
         <h1>We help our client build World class construction Projects...</h1>
       </div>

@@ -1,9 +1,9 @@
 /* =========== CONTACT FORM  ========= */
-const contactMe = document.getElementById("contact-form"),
-  nameMe = document.getElementById("contact-name"),
-  emailMe = document.getElementById("contact-email"),
+const contactMe = document.getElementById("contact-general-form"),
+  nameMe = document.getElementById("contact-general-name"),
+  emailMe = document.getElementById("contact-general-email"),
   messageMe = document.getElementById("message"),
-  contactMessage = document.getElementById("contact-message");
+  contactMessage = document.getElementById("contact-general-message");
 
 const sendEmail = (e) => {
   e.preventDefault();
@@ -22,7 +22,7 @@ const sendEmail = (e) => {
       .sendForm(
         "service_jagc8l2",
         "template_xvw1iuv",
-        "#contact-form",
+        "#contact-general-form",
         "EOqB9s-ao-VmHaGia"
       )
       .then(
