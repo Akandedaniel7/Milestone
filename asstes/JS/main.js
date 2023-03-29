@@ -18,7 +18,7 @@ function newsLetterClose() {
 // function validate ()
 
 // Side Menu
-var allsidemenu = document.getElementById("allsidemenu");
+const allsidemenu = document.getElementById("allsidemenu");
 
 function allopenmenu() {
   allsidemenu.style.right = "0";

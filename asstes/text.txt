@@ -160,3 +160,68 @@
         </ul>       
         <i class="ri-menu-line toggle openmenu" onclick="openmenu()"></i>
         </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <header>
+      <nav class="navbar">
+        <img src="/asstes/images/logo.jpg" alt="logo" class="logo" />
+        <ul id="sidemenu">
+          <li>
+            <a href="/index.html" class="actives nav-link">HOME<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+
+          <li>
+            <a href="/about.html" class="nav-link">ABOUT<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+
+          <li>
+            <a href="/service.html" class="nav-link">SERVICE<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+
+          <li>
+            <a href="/media.html" class="nav-link">MEDIA<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+
+          <li>
+            <a href="/gallery.html" class="nav-link">GALLERY<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+
+          <li>
+            <a href="/contact.html" class="blinking-Text nav-link">CONTACT<i class="ri-arrow-drop-down-line"></i></a>
+          </li>
+          <i
+            class="ri-close-fill toggle close-menu"
+            onclick="closemenu()"
+          ></i>
+        </ul>
+        <i class="ri-menu-fill toggle open-menu" onclick="openmenu()"></i>
+        </nav>
+
+        <!-- <div  class="heroAll-carrer">
+      </nav>
+      <div class="Allcontent-carrer">
+        <h1>Contact</h1>
+      </div>
+      </div> -->
+    </header>
