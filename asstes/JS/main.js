@@ -15,7 +15,7 @@ function newsLetterClose() {
   newsletter.style.right = "-100%";
 }
 
-// function validate ()
+// Newsletter Vallidation
 
 // Side Menu
 const allsidemenu = document.getElementById("allsidemenu");
