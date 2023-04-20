@@ -305,6 +305,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .allImage {
@@ -1308,7 +1309,7 @@ footer {
 
 @media all and (min-width: 250px) and (max-width: 1320px) {
   .container {
-    max-width: 1200px;
+    max-width: 100%;
   }
 
   .allImage {
@@ -1348,13 +1349,6 @@ footer {
 }
 
 @media all and (min-width: 250px) and (max-width: 1070px) {
-  /* .section {
-    padding: 8px 30px;
-  }
-
-  nav {
-    padding: 20px 3%;
-  } */
 
   .newsLetterDiv p {
     padding-right: 38rem;
@@ -1412,10 +1406,6 @@ footer {
   .firstSectionServiceGridChild {
     padding: 10px 0;
   }
-
-  /* .secondSectionServiceFlex {
-    display: block;
-  } */
 
   .fourthSectionServiceFlex {
     display: grid;
