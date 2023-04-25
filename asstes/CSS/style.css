@@ -513,7 +513,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/asstes/images/about.jpg");
+  background-image: url("/asstes/images/about.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -676,7 +676,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/asstes/images/service.jpg");
+  background-image: url("/asstes/images/service.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -813,7 +813,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/asstes/images/projects.jpg");
+  background-image: url("/asstes/images/projects.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
